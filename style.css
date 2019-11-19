@@ -12,9 +12,6 @@ body{
     position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-.postcard-header{
-    overflow: hidden;
-    /* margin: 0px; */
 }
 .header-right {
     float: right;
@@ -28,7 +25,9 @@ body{
     max-width: 50px;
     float: right;
 }
-.postcard-body{
+.postcard-body,
+.postcard-header,
+.postcard-footer{
     overflow: hidden;
 }
 .postcard-footer{
@@ -40,7 +39,7 @@ body{
     border-bottom: 1px solid;
     border-color: grey;
     color: rgb(167, 159, 159);
-    width: 95%;
+    width: 80%;
     padding-top: 15px;
 }
 .body-right{
@@ -53,6 +52,8 @@ body{
 }
 .postcard-footer input[type="submit"]{
     background-color: grey;
+    
+   
 }
 h1{
     font-size: 35px;
