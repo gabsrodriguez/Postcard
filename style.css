@@ -41,6 +41,7 @@ body{
     border-color: grey;
     color: rgb(167, 159, 159);
     width: 95%;
+    padding-top: 15px;
 }
 .body-right{
     float: right;
